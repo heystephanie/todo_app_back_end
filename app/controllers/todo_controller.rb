@@ -13,19 +13,19 @@ class TodoController <ApplicationController
             @todo_description=""
             @todo_promodoro_estimate= 3
             
-        todo_id==3
-        @todo_description=""
-        @todo_promodoro_estimate=
+        elsif todo_id==3
+        @todo_description="Finish cleaning"
+        @todo_promodoro_estimate=6
         
-        todo_id==4
-        @todo_description=""
-        @todo_promodoro_estimate=
-        todo_id==5
-        @todo_description=""
-        @todo_promodoro_estimate=
-        todo_id==6
-        @todo_description=""
-        @todo_promodoro_estimate=
+        elsif todo_id==4
+        @todo_description="Do homework"
+        @todo_promodoro_estimate=5
+        elsif todo_id==5
+        @todo_description="Buy food"
+        @todo_promodoro_estimate=4
+        elsif todo_id==6
+        @todo_description="Clean"
+        @todo_promodoro_estimate=3
         end
     end
 end
